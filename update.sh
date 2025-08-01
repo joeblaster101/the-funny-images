@@ -20,6 +20,7 @@ if [ -d "$current_dir/.git" ]; then
     echo "Committing changes after pull in $current_dir"
     git add .
     git commit -m "Auto commit after pull"
+    git push
   fi
 else
   echo "$current_dir is not a git repository"
