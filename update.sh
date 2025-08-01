@@ -24,3 +24,5 @@ if [ -d "$current_dir/.git" ]; then
 else
   echo "$current_dir is not a git repository"
 fi
+
+echo "done"
